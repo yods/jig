@@ -99,6 +99,9 @@
                  ;; Pedestal integration needs java.classpath to find ^:shared namespaces
                  [io.pedestal/pedestal.app-tools ~pedestal-version]
                  [org.clojure/java.classpath "0.2.0"]
+
+                 ;; core.cache
+                 [org.clojure/core.cache "0.6.3"]
                  ]
 
   :profiles {:dev {:resource-paths ["config"]}}
